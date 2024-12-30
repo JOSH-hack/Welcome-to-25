@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURPRISE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner1">
+        <video class="responsive-video" autoplay loop muted plays-inline>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
+    </div>
+        <audio id="myAudio" autoplay>
+            <source src="son2.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+    
+        <script>
+            window.onload = function() {
+                document.getElementById('myAudio').play();
+            }
+        </script>
+</body>
+</html>
